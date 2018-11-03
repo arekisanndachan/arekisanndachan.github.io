@@ -1,0 +1,13 @@
+[credential]
+    helper = store
+[user]
+    name = Alexander Chan
+    email = arekisannda.k.chan@gmail.com
+[push]
+    default = matching
+[alias]
+    graph = log --graph --decorate --oneline --abbrev-commit --all
+    graphme = log --graph --decorate --oneline --abbrev-commit --all --author="Alexander"
+    pick = cherry-pick
+[core]
+    excludesfile = .gitignore
